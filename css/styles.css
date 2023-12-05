@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F6FBFF;
+}
+
+:root {
+    --pink: #FD80AB;
+}
+
+/* text */
+.text-color {
+    color: #172B43 !important;
+}
+
+/* Nav Part */
+.logo {
+    color: var(--pink);
+}
+
+.nav-link:hover {
+    color: var(--pink) !important;
+}
+
+.nav-btns button:hover {
+    border-color: var(--pink);
+}
+
+/* Banner Part */
+.banner-img-1 {
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+.banner-img-2 {
+    background-image: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+.banner-img-3 {
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
+/* Button Color */
+.btn-primary-color {
+    color: #ffffff;
+    background-color: #162441;
+    border-radius: 0px;
+    padding: 15px 30px;
+}
+
+.btn-primary-color:hover {
+    color: #162441;
+    background-color: #ffffff;
+    border-color: #162441;
+    border-radius: 0px;
+    padding: 15px 30px;
+    border-width: 2px;
+}
+
+.btn-secondary-color {
+    color: #162441;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding: 15px 30px;
+}
+
+.btn-secondary-color:hover {
+    color: #ffffff;
+    background-color: #162441;
+    border-color: #ffffff;
+    border-radius: 0px;
+    padding: 15px 30px;
+    border-width: 2px;
+}
+
+/* Lead */
+/* .lead{
+    background-image: linear-gradient(45deg, #e9a17b, #ff7cb0);
+} */
+
+.lead-1 {
+    background: -webkit-linear-gradient(45deg, #e9a17b, #ff7cb0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lead-2 {
+    background: -webkit-linear-gradient(45deg, #9a9fff, #6245fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lead-3 {
+    background: -webkit-linear-gradient(45deg, #f18cff, #af46fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Clients */
+.clients-bg {
+    background-color: #F2DEDF;
+}
+
+.work {
+    height: 250px;
+    width: 250px;
+    color: #162441;
+    border-radius: 50%;
+    border: 5px solid #162441;
+}
+
+/* Footer */
+.footer-text {
+    color: #ffffff;
+}
+
+.footer-text:hover {
+    color: #FD80AB;
+}
+
+.footer-icon {
+    color: #ffffff;
+}
+
+.footer-icon:hover {
+    color: #FD80AB;
+}
+
+.footer-color {
+    background-color: #172B43;
+}
+
+.footer-copy {
+    background-color: #0E1F33;
+}
+
+
+.card:hover{
+    top: auto;
+    background-image: linear-gradient(100deg, #e9a17b, #ff7cb0);
+}
+
+/* .card {
+    border-left: 15px solid #ff7cb0;
+    border-bottom: 15px solid #ff7cb0;   
+} */
+
+/* Contact Us */
+
+.contact-button{
+    color: #ffffff;
+    background-color: #162441;
+    border-color: #162441;
+    border-radius: 0px;
+    padding: 15px 20px;
+    border-width: 2px;
+}
+
+
+.contact-button:hover {
+    color: #162441;
+    background-color: #ffffff;
+    border-color: #162441;
+    border-radius: 0px;
+    padding: 15px 20px;
+    border-width: 2px;
+}
